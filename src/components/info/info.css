@@ -1,0 +1,6 @@
+.text {
+    color: rgb(0, 255, 17);
+    /* You can add additional styles for the text here */
+    display: inline-block;
+    text-align: center;
+}
