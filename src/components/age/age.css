@@ -1,61 +1,68 @@
 /* AgeCalculator.css */
 
 .age-calculator {
-    max-width: 1200px; /* Adjust max-width to fit the grid */
-    margin: 100px auto;
-    text-align: center;
-  }
-  
-  
-  .text {
-    color: rgb(0, 255, 17);
-    /* You can add additional styles for the text here */
-  }
-  
-  input[type="number"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    padding: 8px 16px;
-    background-color: green;
-    color: red;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    position: absolute;
-    margin: 51px 0px 0px -90px;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  p {
-    margin-top: 10px;
-  }
-  
-  input[type="number"] {
-    max-width: 118px; /* Adjust the max-width as needed */
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 20px;
-  }
-  
-  .enterAge{
-    position: absolute;
-    margin-top: -34px;
-    margin-left: -14px;
-}
-  .validAge {
-    position: absolute;
-    margin: 31px 0px 0px -82px;
-  }
-
-  .cardplace {   
- margin: 30px 10px 10px 10px;
+  max-width: 1200px; /* Adjust max-width to fit the grid */
+  margin: 100px auto;
+  text-align: center;
 }
 
+.text {
+  color: rgb(0, 255, 17);
+  /* You can add additional styles for the text here */
+}
 
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: green;
+  color: red;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  margin: 51px 0px 0px -90px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 10px;
+}
+
+input[type="number"] {
+  max-width: 118px; /* Adjust the max-width as needed */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.enterAge {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .enterAge {
+    top: 26%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.validAge {
+  position: absolute;
+  margin: 31px 0px 0px -82px;
+}
+
+.cardplace {
+  margin: 30px 10px 10px 10px;
+}

@@ -1,7 +1,6 @@
 import './App.css';
 import Age from './components/age/Age';
 import { Header } from './components/header/Header';
-import Info from './components/info/Info';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from './theme'; // Import the theme
 import FAQComponent from './components/faq/Faq';
@@ -14,7 +13,6 @@ function App() {
       <div>
         <Header />
         <Age />
-        <Info />
         <FAQComponent/>
       </div>
     </ChakraProvider>

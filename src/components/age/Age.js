@@ -42,7 +42,6 @@ function Age() {
 
   return (
     <div className="age-calculator">
-      <h3 className="text enterAge">Enter Your Age Here</h3>
       <input 
         type="number" 
         value={age} 

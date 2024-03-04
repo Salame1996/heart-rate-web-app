@@ -11,9 +11,14 @@
   .faq-question {
     font-weight: bold;
     cursor: pointer;
+    color: aqua;
   }
   
   .faq-answer {
     margin-top: 10px;
+    color: lawngreen;
   }
   
+  h1{
+    color: lawngreen;
+  }
