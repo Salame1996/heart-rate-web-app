@@ -1,0 +1,19 @@
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+  }
+  
