@@ -4,14 +4,16 @@ import { Header } from './components/header/Header';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from './theme'; // Import the theme
 import FAQComponent from './components/faq/Faq';
+import EnterAge from './components/enterage/EnterAge';
 
 
 
 function App() {
   return (
-    <ChakraProvider theme={theme}> {/* Pass the theme to ChakraProvider */}
+    <ChakraProvider theme={theme}>
       <div>
         <Header />
+        <EnterAge />
         <Age />
         <FAQComponent/>
       </div>
