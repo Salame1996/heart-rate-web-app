@@ -48,10 +48,11 @@ function Age() {
         onChange={(e) => setAge(e.target.value)} 
         placeholder="Enter your age" 
       />
-      <button onClick={calculate}>Calculate</button>
+      <button onClick={calculate} className="button-85">Calculate</button>
       <div className='cardplace'>{result}</div>
     </div>
   );
+  
 }
 
 export default Age;
